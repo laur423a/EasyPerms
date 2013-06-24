@@ -1,0 +1,16 @@
+chat-prefix: '&a[&2EasyPerms&a]'
+console-prefix: '[EasyPerms]'
+moved-to-new-group: '&f{name} er blevet flyttet til {newgroup} fra {oldgroup}'
+ enabled: true
+no-acces-cmd: '&4Du har ikke tilladelse til den kommando!'
+consolemessage-no-acces-cmd: '{name} provede at bruge {command}, men han fik ikke lov!'
+ enabled: true
+no-acces-build: '&4Du har ikke tilladelse til at bygge'
+consolemessage-no-acces-build: '{name} provede at bygge ved {pos}, men han fik ikke lov!'
+ enabled: true
+no-acces-interact: '&4Du har ikke tilladelse til at bruge den'
+consolemessage-no-acces-build: '{name} provede at bruge noget ved {pos}, men han fik ikke lov!'
+ enabled: true
+manual-update-player: 'Ny version tilgaengelig! Skriv /ep update eller installer den herfra: {bukkitdev-url}'
+manual-update-colsole: 'Ny version tilgaengelig! Installer den herfra: {bukkitdev-url} eller skriv /ep update når serveren er startet'
+wrong-command-ussage: '&4Forkert brug!&f Brug kommandoen sadan her: {correctussage}'

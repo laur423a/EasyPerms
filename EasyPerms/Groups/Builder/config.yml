@@ -1,0 +1,4 @@
+#Chat format. Use {name} for the player name, {msg} for message, {world} for world name, {time} for time, {date} for date and {day} for day of the week (eg. Monday)
+chat-format: '[Builder] {name} {msg}'
+#Should this group be able to build
+build: true

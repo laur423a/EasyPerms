@@ -1,0 +1,16 @@
+chat-prefix: '&a[&2EasyPerms&a]'
+console-prefix: '[EasyPerms]'
+moved-to-new-group: '&f{name} has been moved to {newgroup} from {oldgroup}'
+ enabled: true
+no-acces-cmd: '&4You are not allowed to do that'
+consolemessage-no-acces-cmd: '{name} tried to use {command}, but he was denied to!'
+ enabled: true
+no-acces-build: '&4You are not allowed to build'
+consolemessage-no-acces-build: '{name} tried to build at {pos}, but he was denied to!'
+ enabled: true
+no-acces-interact: '&4You are not allowed to interact with that'
+consolemessage-no-acces-build: '{name} tried to interact with something at {pos}, but he was denied to!'
+ enabled: true
+manual-update-player: 'New version avibale! Please type /ep update or install it from {bukkitdev-url}'
+manual-update-colsole: 'New version avibale! Please install it from {bukkitdev-url} or type /ep update when the server is started'
+wrong-command-ussage: '&4Wrong ussage!&f Please use the command like this: {correctussage}'

@@ -1,0 +1,40 @@
+####################
+###PLUGIN UPDATES###
+####################
+
+#Should this plugin update automatticly?
+##false = No
+##manual = You get a message for the plugin to update
+##true = The plugin is automatticly updating
+update: true
+#What update stream should EasyPerms run of?
+##dev = Development builds (not reccomended)
+##beta = Beta builds
+##rec = Reccomended builds (reccomended)
+update-stream: rec
+
+###################
+###ON FIRST JOIN###
+###################
+
+#What group should the user be placed in? Case sensitive
+##TIP: Type 0 for the user to be in no group. If you delete any user from a "user.yml" file, the user would be detected as default.
+default-group: Builder
+
+#Should EasyPerms run a "moved to another group" message?
+##TIP: If you delete any user from a "user.yml" file, the user would be detected as default.
+shout-groupchange-default: false
+
+#############################
+###ONLY FOR ADVANCED USERS###
+#############################
+
+#Where is the plugin jar file placed? Case sensitive
+file-pos: ..\EasyPerms.jar
+
+#What language should EasyPerms use?
+##en = English (reccomended)
+##da = Danish
+##auto = Auto detects server country (Not reccomended for non-local hosting)
+##TIP: Other languages than english can be translated incorrectly!
+language: en

@@ -1,0 +1,1 @@
+The jar file of this plugin is clear, DO NOT USE IT for your server!
