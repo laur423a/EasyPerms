@@ -1,0 +1,7 @@
+chat-prefix: '&e[&6EasyPerms DevTeam&e]'
+console-prefix: '[EasyPerms DevTeam]'
+preventkick-player: '&4You are not allowed to kick that player'
+preventkick-console: 'You are not allowed to kick that player'
+preventban-payer: '&4You are not allowed to ban that player'
+preventban-console: 'You are not allowed to ban that player'
+onjoin: '{devteam-prefix}{playername} has joined the server! Congratz, server owner!'

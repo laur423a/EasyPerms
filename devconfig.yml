@@ -1,0 +1,24 @@
+founder
+ players
+  laur423aftw
+ prefix: '&e[&6EasyPerms &4FOUNDER&e]&f'
+ preventkick: true
+ preventban: true
+manager
+ players
+  laur423aftw
+ prefix: '&e[&6EasyPerms &cMANAGER&e]&f'
+ preventkick: true
+ preventban: true
+developer
+ players
+  laur423aftw
+ prefix: '&e[&6EasyPerms &cDEVELOPER&e]&f'
+ preventkick: false
+ preventban: true
+helper
+ players
+  laur423aftw
+ prefix: '&e[&6EasyPerms &1HELPER&e]&f'
+ preventkick: false
+ preventban: false

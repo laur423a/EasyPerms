@@ -1,0 +1,76 @@
+##########
+###INFO###
+##########
+
+#NOTE if there is any slashes, it means an alias (eg "ep changegroup/eg cg/changegroup/ch")
+#Example of list:
+#command
+#-desc
+#-use
+#-permission
+
+##########
+###MAIN###
+##########
+
+easyperms/easyperm/ep
+-List's all commands in the smallest alias
+-ep
+-All users can do this.
+ep help
+-Displays information (use, permission and descreption) about the command typed in after the word "help" - if no command typed, list's all commands in the smallest alias
+-ep help [command]
+-All users can do this.
+ep changegroup/eg cg/changegroup/ch
+-Change the group of any player - CANNOT be used for anyone who inherts your group - Leave newgroup clean to set the player to the default group (TIP: Will still announce group change)
+-ch <player> [newgroup]
+-easyperms.changegroup
+ep addperm
+-Add a permission to a group - CANNOT be used to add any easyperms permissions, or the permission "*"
+-ep addperm <permission>
+-easyperms.manageperms.add
+ep remperm
+-Remove a permission from a group - CANNOT be used for any group wich inherts the group you are in
+-ep remperm <permission>
+-easyperms.manageperms.remove
+NONE
+-Gives you all permissions
+-NONE
+-easyperms.allperms/*
+NONE
+-Block an item for being used, placed or removed by the user
+-NONE
+-easyperms.blockitem.<item id>
+NONE
+-Overvrite blocked item
+-NONE
+-easyperms.allowitem.<item id>/easyperms.allowitem.*
+NONE
+-Get messages from EasyPerms broadcasted to the console
+-NONE
+-easyperms.getcnslmsgs
+
+###############
+###ANTIGREIF###
+###############
+
+ep antigreif/ep ag/antigreif/ag
+-List's all commands in the smallest alias
+-ag
+-All users can do this.
+ag help
+-Displays information (use, permission and descreption) about the command typed in after the word "help" - if no command typed, list's all commands in the smallest alias
+-ag help [command]
+-All users can do this.
+ag inspector/ag inspect/ag i
+-Place a block where you want the log from, if no block is there. Interact with anything where you want a log from. Or break any block to get a log from there.
+-ag i [on|off]
+-easyperms.ag.inspect
+ag rollback/ag rb
+-ONLY GIVE TO PLAYERS YOU TRUST - COMMAND CAN RESET ALL NORMAL PLAYERS BUILDINGS! Rolls your world back - CANNOT be used for anyone who inherts your group - You will need to type ag rb yes to accept.
+-ag rb u:<{user}|*> t:<{time in hours}|*> r:<{radius}|w.this|w.{worldname}|*>
+-easyperms.
+NONE
+-Players with this permission will NOT get logged
+-NONE
+-easyperms.ag.nologging

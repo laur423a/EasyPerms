@@ -1,3 +1,4 @@
+#TIP: All messages logged to console will also be telled to players with "easyperms.getcnslmsgs" - with the player prefix
 chat-prefix: '&a[&2EasyPerms&a]'
 console-prefix: '[EasyPerms]'
 moved-to-new-group: '&f{name} has been moved to {newgroup} from {oldgroup}'
@@ -11,6 +12,10 @@ consolemessage-no-acces-build: '{name} tried to build at {pos}, but he was denie
 no-acces-interact: '&4You are not allowed to interact with that'
 consolemessage-no-acces-build: '{name} tried to interact with something at {pos}, but he was denied to!'
  enabled: true
-manual-update-player: 'New version avibale! Please type /ep update or install it from {bukkitdev-url}'
-manual-update-colsole: 'New version avibale! Please install it from {bukkitdev-url} or type /ep update when the server is started'
-wrong-command-ussage: '&4Wrong ussage!&f Please use the command like this: {correctussage}'
+manual-update-player: 'New version available! Please type /ep update or install it from {bukkitdev-url}'
+manual-update-colsole: 'New version available! Please install it from {bukkitdev-url} or type /ep update when the server is started'
+wrong-command-use: '&4Wrong use!&f Please use the command like this: {correctuse}'
+add-perm-player: 'Added {perm} to {group}'
+ enabled: true
+add-perm-console: {player} added {perm} to {group}
+#ANTIGREIF

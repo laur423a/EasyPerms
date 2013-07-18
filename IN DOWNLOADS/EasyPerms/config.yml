@@ -18,23 +18,29 @@ update-stream: rec
 ###################
 
 #What group should the user be placed in? Case sensitive
-##TIP: Type 0 for the user to be in no group. If you delete any user from a "user.yml" file, the user would be detected as default.
+##TIP: Type 0 for the user to be in no group. If you delete any user from a "user.yml" file, the user would be detected as default at next login.
 default-group: Builder
 
-#Should EasyPerms run a "moved to another group" message?
-##TIP: If you delete any user from a "user.yml" file, the user would be detected as default.
-shout-groupchange-default: false
+###############
+###ANTIGREIF###
+###############
+
+#Should logging be enabled?
+##WARNING: If this isn't enabled, only the allow building, ussage and breaking feature of the antigreif part in EasyPerms will work!
+##TIP: EasyPerms will not log players with "easyperms.ag.nologging"
+ag-enabled: false
+
+#Should rollback be allowed?
+ag-allow-rollback: true
+
 
 #############################
 ###ONLY FOR ADVANCED USERS###
 #############################
 
-#Where is the plugin jar file placed? Case sensitive
-file-pos: ..\EasyPerms.jar
-
 #What language should EasyPerms use?
 ##en = English (reccomended)
-##da = Danish
 ##auto = Auto detects server country (Not reccomended for non-local hosting)
 ##TIP: Other languages than english can be translated incorrectly!
+##TIP: Only international letters available!
 language: en
